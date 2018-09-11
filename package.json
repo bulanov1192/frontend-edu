@@ -1,12 +1,20 @@
 {
-  "name": "front.edu",
+  "name": "gulp-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test of gulp and sass",
   "main": "script.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Vladlanov",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bulanov1192/frontend-edu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bulanov1192/frontend-edu/issues"
+  },
+  "homepage": "https://github.com/bulanov1192/frontend-edu#readme"
 }
