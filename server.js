@@ -5,11 +5,11 @@ const fs = require('fs');
 
 const server = http.createServer(function (request, response) {
     console.log(request.method, request.url);
-    if (request.url === '/style.css') {
-        const css = fs.readFileSync('style.css', 'utf-8');
+    if (request.url === '/dist/css/main.css') {
+        const css = fs.readFileSync('dist/css/main.css', 'utf-8');
         response.end(css);
     }
-    const html = fs.readFileSync('index.html', 'utf-8');
+    const html = fs.readFileSync('app/index.html', 'utf-8');
     response.end(html);
 });
 

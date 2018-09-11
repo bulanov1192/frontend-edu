@@ -1,0 +1,27 @@
+html, body {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #fefefe;
+  position: absolute; }
+
+.content {
+  width: 1120px;
+  height: 90vh;
+  margin: 10vh auto; }
+  .content > img {
+    width: 250px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px; }
+  .content p {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: lighter; }
